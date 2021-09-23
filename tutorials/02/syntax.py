@@ -26,14 +26,22 @@
 #       print("Hello world")
 
 # -------------------------------------------------------------------------------
-# Stntax error
+# syntax error
 
 a = 5
-if a > 2:
+if a > 7:
     print("Hello world")
 else:
   print("Hello world")
 
+if a > 2:
+  print("Hello world")
+  print("Hello world")
+else:
+    print("Hello world")
+
 for idx in range(10):
     print(idx)
+
+
 
