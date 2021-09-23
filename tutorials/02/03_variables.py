@@ -38,3 +38,12 @@ double_quote_string = "double_quote_string"
 
 print(f"single_quote_string: {single_quote_string}")
 print(f"double_quote_string: {double_quote_string}")
+
+# case-sensitive
+
+a = 10
+A = 10
+
+print(f"a: {a}")
+print(f"A: {A}")
+
