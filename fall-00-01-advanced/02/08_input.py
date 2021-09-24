@@ -1,0 +1,5 @@
+a = input("Please enter your input: ")
+print(a)
+print(f"the input is: {a}")
+print("the input is: " + a)
+print("a")
