@@ -107,6 +107,10 @@ Table of contentx
 
 1. socket programming
 
+### 10.1
+
+matplotlib
+
 ### Projects
 
 1. plants and zombies
