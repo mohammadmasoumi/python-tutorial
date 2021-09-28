@@ -1,4 +1,3 @@
-
 # Python has no command for declaring a variable.
 
 # A variable is created the moment you first assign a value to it.
@@ -34,4 +33,17 @@ print(f"x3: {type(x3)}")
 
 # double or single Quotes
 
-sinle_quote_string = 'sinle_quote_string'
+single_quote_string = 'single_quote_string'
+double_quote_string = "double_quote_string"
+
+print(f"single_quote_string: {single_quote_string}")
+print(f"double_quote_string: {double_quote_string}")
+
+# case-sensitive
+
+a = 10
+A = 10
+
+print(f"a: {a}")
+print(f"A: {A}")
+
