@@ -28,22 +28,24 @@ Table of contentx
 5. naming
 6. assigning
 7. operators
-8. git
+8. input & output
+9. git
 
 ### 3
 
-1. string
-2. warlus operator
-3. boolean
-4. list
-5. tuple
-6. sets
-7. dictionaries
-8. hash
-9. collections
-10. immutable and mutable
-11. virtual env
-12. install external packages
+1. STDIN and STDOUT
+2. string
+3. warlus operator
+4. boolean
+5. list
+6. tuple
+7. sets
+8. dictionaries
+9. hash
+10. collections
+11. immutable and mutable
+12. virtual env
+13. install external packages
 
 ### 4
 
