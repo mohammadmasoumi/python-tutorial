@@ -28,6 +28,7 @@ elif operator == '/':
 elif operator == '*':
     res = first * second
 else:
+    has_exception = True
     sys.stderr.write(f"Invalid operator: {operator}")
 
 if not has_exception:
