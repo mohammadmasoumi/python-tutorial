@@ -21,5 +21,6 @@ for _ in range(int(input())):
 
     elif command == 'pop':
         my_list.pop()
+
     else:
         print("Wrong command!")
