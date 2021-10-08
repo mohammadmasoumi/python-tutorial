@@ -8,7 +8,7 @@ This project is an open-source project which I made due to sharing my experience
 
 ## what you will learn?
 
-Table of contentx
+Table of content
 
 ### 1
 
