@@ -1,0 +1,2 @@
+def asghar():
+    print("Hello")
