@@ -4,7 +4,9 @@ This project is an open-source project which I made due to sharing my experience
 
 - [tutorial][1]
 - [fall-00-01-advanced][2]
-- [fall-00-01-beginners][3]
+- [fall1-00-01-beginners][3]
+- [fall2-00-01-beginners][4]
+
 
 ## what you will learn?
 
@@ -122,4 +124,5 @@ matplotlib
 
 [1]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/tutorials
 [2]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/fall-00-01-advanced
-[3]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/fall-00-01-beginners
+[3]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/fall1-00-01
+[4]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/fall2-00-01
