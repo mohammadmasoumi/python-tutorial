@@ -55,7 +55,7 @@ Table of content
 2. break, continue
 3. for loops - list comprehension, dict comprehension
 4. del, set, get descriptor
-5. functionsm positional args
+5. function positional args
 6. random module
 7. scope
 8. lambda
