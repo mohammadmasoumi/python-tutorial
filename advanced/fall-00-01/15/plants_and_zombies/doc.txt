@@ -1,0 +1,45 @@
+
+# Zombie
+ - health
+ - power (attack)
+ - speed
+ - is_alive (@property)
+ - x position
+ - y position
+ + damage
+ + move
+
+# FastZombie(Zombie)
+
+# SlowZombie(Zombie)
+
+# Flowers
+  - attack speed
+  - health
+  - price
+  - x position
+  - y position
+  - is_alive
+  + attack
+
+# StrongFlower(Flower)
+
+# WeakFlower(Flower)
+
+# SunFlower(Flower)
+   - timer
+   - income
+
+# Map
+  - width
+  - length
+  - Cell[][]
+
+# Cell
+  - x
+  - y
+  - contents []
+
+
+
+
