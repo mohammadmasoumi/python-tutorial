@@ -1,0 +1,33 @@
+#
+https://www.w3schools.com/html/
+https://docs.python.org/3/library/venv.html
+https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
+
+# install requirements
+pip install pandas
+pip install requests
+
+python -m pip install requests
+python3 -m pip install requests
+
+# show all installed dependencies
+pip freeze
+
+# write all installed dependencies into requirements.txt
+pip freeze > requirements.txt
+
+# install all requirement from a file
+pip install -r requirements.txt
+
+# create virtual env
+python -m venv env
+
+# change between venv(s)
+
+(venv name)\Scripts\activate
+
+# windows
+env\Scripts\activate
+
+# linux or mac
+source env/bin/active
