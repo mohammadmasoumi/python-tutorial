@@ -1,0 +1,13 @@
+سوال پنجم:
+
+
+یک جمله در ورودی به شما داده شده است. اولین کلمه و آخرین کلمه و بقیه کلمات را با استفاده از unpackingدر خروجی چاپ کنید.
+
+نمونه ورودی:
+Today is difficult, tomorrow is much more difficult, but the day after tomorrow is beautiful. Most people die tomorrow evening.
+
+نمونه خروجی:
+
+first word: Today
+last word: evening.
+rest: ["is", "difficult,", "tomorrow". "is", "much", "more", "difficult", "but", "the", "day", "after", "tomorrow", "is", "beautiful.", "Most", "people", "die", "tomorrow"]
