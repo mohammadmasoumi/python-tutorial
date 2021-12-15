@@ -9,8 +9,19 @@ class Color(Enum):
     YELLOW = 'yellow'
 
 
+# name and value
 print(Color.RED)
 print(Color.RED.name)
 print(Color.RED.value)
-print(repr(Color.RED))
+print("----------------------")
 
+
+# more information
+print(repr(Color.RED))
+print("----------------------")
+
+
+# type
+print(type(Color.RED))
+print(isinstance(Color.RED, Color))
+print("----------------------")
