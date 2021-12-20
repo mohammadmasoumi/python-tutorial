@@ -1,6 +1,5 @@
-"""
-11 33
-"""
+# Q3
+
 h, l = input().split()
 h, l = int(h), int(l)
 

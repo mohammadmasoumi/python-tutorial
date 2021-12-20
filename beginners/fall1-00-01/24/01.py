@@ -1,4 +1,5 @@
 # Q1
+
 text = input()
 
 characters = {}
