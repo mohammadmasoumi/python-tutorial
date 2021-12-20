@@ -20,7 +20,7 @@ def insertionSort(arr):
 def insertion_sort2(arr):
     for i in range(len(arr)):
 
-        min_key = 0
+        min_key = 10000
         min_index = -1
         for j in range(i, len(arr)):
             if arr[j] < min_key:
