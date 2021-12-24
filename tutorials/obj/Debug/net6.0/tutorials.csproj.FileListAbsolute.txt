@@ -1,5 +1,0 @@
-/home/mastermind/Workspace/github/python-tutorial/tutorials/obj/Debug/net6.0/tutorials.csproj.AssemblyReference.cache
-/home/mastermind/Workspace/github/python-tutorial/tutorials/obj/Debug/net6.0/tutorials.GeneratedMSBuildEditorConfig.editorconfig
-/home/mastermind/Workspace/github/python-tutorial/tutorials/obj/Debug/net6.0/tutorials.AssemblyInfoInputs.cache
-/home/mastermind/Workspace/github/python-tutorial/tutorials/obj/Debug/net6.0/tutorials.AssemblyInfo.cs
-/home/mastermind/Workspace/github/python-tutorial/tutorials/obj/Debug/net6.0/tutorials.csproj.CoreCompileInputs.cache

@@ -132,3 +132,8 @@ dmypy.json
 .metals
 .idea
 .vscode
+
+
+# c# 
+tutorials/HelloWorld/bin/*
+tutorials/HelloWorld/obj/*
