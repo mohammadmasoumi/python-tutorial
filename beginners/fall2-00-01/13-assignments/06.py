@@ -18,5 +18,9 @@ for char in string:
         character_count_mapping.append([char, 1])
 
 
-for char, count in character_count_mapping:
-    print(f"{char}: {count}")
+for _, count in character_count_mapping:
+    if count > 2:
+        print("NO")
+        break
+else:
+    print("YES") 
