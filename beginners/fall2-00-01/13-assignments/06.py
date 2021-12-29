@@ -7,7 +7,6 @@ character_count_mapping = []
 
 for char in string:
 
-
     # first: we should search for the character whether we've counted or not. if yes increase it's count
     for item in character_count_mapping:
         # item is like [characterm count]
