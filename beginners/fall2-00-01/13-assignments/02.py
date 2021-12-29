@@ -1,0 +1,7 @@
+# input: Hassan Fatemeh Asghar Mohammad
+names = input().split()
+
+for name in names:
+
+    if name != "Asghar":
+        print(f"Hello {name}") 
