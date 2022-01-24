@@ -1,19 +1,31 @@
-"""
-1
-121
-12321
-1234321
-123454321
-"""
+from ecdsa import keys
 
-pattern_num = int(input())
 
-for row in range(1, pattern_num + 1):
+sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
+}
 
-    left_side = ""
-    for num in range(1, row + 1):
-        left_side += str(num)
 
-    right_side = left_side[-2:: -1]
-    pattern = left_side + right_side
-    print(pattern)
+deleting_keys = ["age", "city"]
+remaining_keys = ["name", "salary"]
+
+# solution 1 - remove extra keys from existing dict
+# .pop
+# value = dict.pop(key)
+# for key in deleting_keys:
+#     value = sample_dict.pop(key)
+#     print(value)
+
+# print(sample_dict)
+
+# solution 2 - create a new dict with remaining keys
+# .get
+# value = dict.get(key)
+new_dict = {}
+for key in remaining_keys:
+    new_dict[key] = sample_dict[key]
+
+print(new_dict)

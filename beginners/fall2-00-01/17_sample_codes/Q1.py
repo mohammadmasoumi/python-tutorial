@@ -1,24 +1,13 @@
-"""
-تمرین اول:
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
 
-جا به جایی صفر‌ها
+# beginner
+my_dict = {}
+for idx, item in enumerate(keys):
+    my_dict[item] = values[idx] 
 
-برنامه ای بنویسید که تمام صفر‌های یک لیست را به آخر لیست منتقل کند.
+print(my_dict)
 
-در خط اول ورودی، در یک خط به شما دنباله‌ای از اعداد با فاصله ( space ) داده میشود. با استفاده از دستور map تمام اعداد را به int تبدیل کنید. سپس صفر‌های موجود در لیست را به آخر لیست منتقل کنید.
-
-نمونه ورودی:
-0 1 0 5 0 1 2
-
-نمونه خروجی:
-1 5 1 2 0 0 0
-"""
-
-my_list = [0, 1, 0, 5, 0, 1, 2]
-
-for item in my_list:
-    if item == 0:
-        my_list.remove(item)
-        my_list.append(item)
-
-print(my_list)
+# advanced
+print(list(zip(keys, values)))
+print(dict(zip(keys, values)))
