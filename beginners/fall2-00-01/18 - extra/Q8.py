@@ -1,7 +1,5 @@
-from functools import total_ordering
 from random import randint
 
-from attr import has
 
 def multiply(string):
     total = 1
