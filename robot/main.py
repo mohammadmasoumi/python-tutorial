@@ -24,7 +24,7 @@ def print_board():
     """
     print board function
     """
-    ceil = cell_sign * ((cell_width + 1) * len(row_size) + 1)
+    ceil = cell_sign * ((cell_width + 1) * row_size + 1)
     for row in board:
         print(ceil)
         print("|" + "|".join([col.center(cell_width) for col in row]) + "|")
@@ -35,7 +35,6 @@ def print_board():
 def can_move(new_x, new_y):
     """
     decide whether the robot can move or not
-
     @param new_x: new robot x
     @param new_y: new robot y
     """
@@ -53,31 +52,65 @@ def can_move(new_x, new_y):
     return valid_move
 
 
+def move(new_x, new_y):
+    """
+    Move the robot into new coordination 
+    @param new_x: new robot x
+    @param new_y: new robot y
+    """
+    global robot_x, robot_y
+    # clear prev cell
+    board[robot_y][robot_x] = cell_sign
+
+    # update robot coordination
+    robot_x, robot_y = new_x, new_y
+
+    # add robot into new cell
+    board[robot_y][robot_x] = robot_sign
+
+
 def move_right():
+    """
+    Move robot right in the board
+    """
     new_x = robot_x + 1
     new_y = robot_y
 
     if can_move(new_x, new_y):
-        # clear prev cell
-        board[robot_y][robot_x] = cell_sign
-
-        # update robot coordination
-        robot_x, robot_y = new_x, new_y
-
-        # add robot into new cell
-        board[robot_y][robot_x] = cell_sign
+        move(new_x, new_y)
 
 
 def move_left():
-    pass
+    """
+    Move robot left in the board
+    """
+    new_x = robot_x - 1
+    new_y = robot_y
+
+    if can_move(new_x, new_y):
+        move(new_x, new_y)
 
 
 def move_up():
-    pass
+    """
+    Move robot up in the board
+    """
+    new_x = robot_x
+    new_y = robot_y - 1
+
+    if can_move(new_x, new_y):
+        move(new_x, new_y)
 
 
 def move_down():
-    pass
+    """
+    Move robot down in the board
+    """
+    new_x = robot_x
+    new_y = robot_y + 1
+
+    if can_move(new_x, new_y):
+        move(new_x, new_y)
 
 
 # direction - movement function mapping
@@ -90,6 +123,7 @@ controller = {
 
 # game engine
 while not is_finished:
+    print_board()
     direction = input()
 
     if direction == "EXIT":
@@ -103,3 +137,6 @@ while not is_finished:
     if not move_function:
         print("Invalid direction")
         continue
+
+    # move robot into new cell
+    move_function()
