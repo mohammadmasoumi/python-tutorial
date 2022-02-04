@@ -20,3 +20,4 @@ def is_even(x):
 
 print(my_custom_map(multiply_by_2, range(5)))
 print(my_custom_filter(is_even, range(5)))
+print(my_custom_map(multiply_by_2, my_custom_filter(is_even, range(5))))
