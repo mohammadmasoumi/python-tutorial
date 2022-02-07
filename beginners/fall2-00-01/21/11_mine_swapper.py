@@ -12,7 +12,7 @@ for y in range(board_length):
 
 cell_length = 3
 ceil_length = (cell_length + 1) * board_width + 1 
-bomb_cout = 5
+bomb_count = 5
 cells_around_bomb = [(-1, -1), (0, -1), (+1, -1), (-1, 0), (+1, 0), (-1, +1), (0, +1), (+1,+1)]
 
 """ 4x4
@@ -80,7 +80,7 @@ def select_bombs():
             if (0 <= new_x < board_width) and (0 <= new_y < board_length) and board[new_y][new_x] != 2:
                 board[new_y][new_x].update(value=1)
 
-    for _ in range(bomb_cout):
+    for _ in range(bomb_count):
         x = randint(0, board_width - 1)
         y = randint(0, board_length - 1)
 
@@ -96,7 +96,7 @@ while True:
     print_board()
     rounds += 1
 
-    if rounds == (board_width * board_length) - bomb_cout:
+    if rounds == (board_width * board_length) - bomb_count:
         print("You win")
         break
 
