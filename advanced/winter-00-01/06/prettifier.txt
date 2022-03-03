@@ -1,0 +1,5 @@
+shift + alt + F
+Select python 
+show message
+click yes
+shift + alt + F
