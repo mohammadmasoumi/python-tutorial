@@ -1,0 +1,2 @@
+[greeting]: args: , kwargs: name:Aliakbar | last_name:mohajer, result: None
+[greeting]: args: Aliakbar | mohajer, kwargs: , result: None
