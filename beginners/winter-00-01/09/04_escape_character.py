@@ -30,6 +30,7 @@ print("\110")
 print("\101")
 
 # "
+print("\"")
 print("\"\"\"")
 print('"""')
 

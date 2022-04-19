@@ -4,14 +4,32 @@ string = "hello world"
 
 # Converts the first character to upper case
 # "Hello world" , "hello world"
+
+# "hello world" => "Hello world"
 print(string.capitalize(), string)
+
+# "hello world" => "Hello World"
 print(string.title(), string)
 
-# Converts string into lower cas
+# Converts string into lower case
 print("HELLO WORLD".casefold())
+print("HELLO WORLD".lower())
+
+# ---------------------------------
+# For example, the German lowercase letter 'ß' is equivalent to 'ss'. Since it is already lowercase, 
+# the lower() method would not convert it; whereas the casefold() converts it to 'ss'.
+mystr = 'außen'
+print(mystr.casefold())
+
+mystr = 'außen'
+print(mystr.lower())
+# aussen
+# außen
+# ---------------------------------
 
 # center()	Returns a centered string
 # - - - - - B - - - - -
+print("B".center(11))
 print("B".center(11, "*"))
 print("ALI".center(11,"-"))
 print("AB".center(11))

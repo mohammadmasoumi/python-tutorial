@@ -6,6 +6,20 @@ my_list3 = ["ali", 2]
 my_list4 = [True, 2] # int(True) = 1
 my_list5 = [True, 2.2]
 
+
+# ali
+# hassan
+
+# 1. a ? h => h > a
+# hassan > ali
+# ---------------------
+
+# Ali
+# ali
+
+# 1. a ? A => a > A
+# ali > Ali
+
 # max
 print(f"max(my_list): {max(my_list)}")
 print(f"max(my_list2): {max(my_list2)}")
@@ -21,6 +35,21 @@ print(f"sum(my_list): {sum(my_list)}")
 # sum([1, 2]) => 1 + 2
 print(f"sum(my_list4): {sum(my_list4)}")
 print(f"sum(my_list5): {sum(my_list5)}")
+
+# str ++ str
+# concatenation
+# "hello" + "world"
+# "helloworld"
+print("hello" + "world")
+
+
+# str + int ?
+# str + bool ?
+# str + float ?
+# int + bool ?
+# float + int ?
+# float + bool ?
+ 
 # TypeError: unsupported operand type(s) for +: 'int' and 'str'
 # print(f"sum(my_list2): {sum(my_list2)}")
 
