@@ -28,6 +28,7 @@ my_names = []
 for _ in range(n):
     name = input()
     my_names.append(name)
+    # my_names.append(input())
 
 print(my_names)
 
