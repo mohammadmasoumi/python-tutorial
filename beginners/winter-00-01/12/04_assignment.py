@@ -65,7 +65,7 @@ for _ in range(n):
     students_scores.append(student_scores)
 
 """
-[
+[-
     [name, [course, score], [course, score], [course, score], [course, score] ],
     [name, [course, score], [course, score], [course, score], [course, score] ], 
     [name, [course, score], [course, score], [course, score], [course, score] ] 
