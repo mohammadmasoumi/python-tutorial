@@ -1,9 +1,10 @@
 سوال دوم:
 
+لیست زیر به شما داده است.
 
-یک رشته از ورودی دریافت کنید و space های اول و آخر رشته را حذف کنید.
+لطفا به همه المان های این لیست مقدار "orange" را اضافه کنید.
 
-نمونه ورودی:
-    hello    
+my_list = [["apple", "apricat"], ["watermelon", "cucumber"], ["cherry", "pomegranate"]]
+
 نمونه خروجی:
-hello
+my_list = [["apple", "apricat", "orange"], ["watermelon", "cucumber", "orange"], ["cherry", "pomegranate", "orange"]]

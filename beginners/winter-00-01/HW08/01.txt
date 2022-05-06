@@ -1,9 +1,0 @@
-سوال اول :
-
-لیست زیر به شما داده شده است.
-
-لطفا به اول همه المان های این لیست مقدار " Hello" رو اضافه کنید و مقدار نهایی رو در خروجی چاپ کنید.
-my_list = ["Ali", "Hassan", "Fatemeh", "Asghar"]
-
-نمونه خروجی:
-["Hello Ali", "Hello Hassan", "Hello Fatemeh", "Hello Asghar"]
