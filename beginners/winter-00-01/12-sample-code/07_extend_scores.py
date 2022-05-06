@@ -66,24 +66,12 @@ time: 3, scores: [18, 19]
 time: 4, scores: [11, 18, 17]
 """
 
-# 3
 exam_legal_duration = int(input())
-# 2
 chunk_of_scores = int(input())
 
-"""
-[
-    [2, [20, 19, 16]],
-    [3, [10, 12, 11]]
-]
-"""
 scores_duration = []
 
 for _ in range(chunk_of_scores):
-    # ------------- 1 ------------- 
-    # items: 2 4
-    # 18
-    # 19
     items = input().split()
 
     student_scores = []
@@ -98,22 +86,13 @@ for _ in range(chunk_of_scores):
         else:
             student_scores.append(score)
 
-    # student_scores = [18, 19]
     # حال باید ما نمرات دانش آموزانی که exam_duration تاخیر داشته اند را در یک دوتایی بصورت زیر ذخیره کنیم
     # [exam_duration, student_scores]
     # [2, [20, 19, 16]]
     scores_duration.append([exam_duration, student_scores])
 
 new_scores_list = []
-"""
-[
-    [4, [20, 19, 16]],
-    [5, [10, 12, 11]]
-]
-"""
 for exam_time, scores in scores_duration:
-    # exam_time: 4
-    # scores: [20, 19, 16]
     new_scores = []
 
     for score in scores:
@@ -121,13 +100,6 @@ for exam_time, scores in scores_duration:
         new_scores.append(new_score)
 
     new_scores_list.append([exam_time, new_scores])
-
-"""
-[
-    [4, [19, 18, 15]],
-    [5, [8, 10, 9]]
-]
-"""
 
 for exam_time, scores in new_scores_list:
     print(f"time: {exam_time}, scores: {scores}")
