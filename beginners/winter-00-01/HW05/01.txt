@@ -1,0 +1,14 @@
+تمرین اول:
+
+
+رشته زیر به شما داده شده است.
+
+"Hello world"
+سعی کنید با استفاده از index و عملگرهای ریاضی مقدار زیر تولید را درست کرده و در خروجی چاپ کنید.
+
+Heeeeeello world
+Hell
+Holddddddd
+olleH 
+word
+Helloooooooo
