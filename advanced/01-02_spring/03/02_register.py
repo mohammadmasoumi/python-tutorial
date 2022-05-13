@@ -1,32 +1,13 @@
-METHODS = {}
+from spy import register
 
-"""
-METHODS: {
-    'func1': func1,
-    'func2': func2,
-}
-"""
+@register
+def func1(username, password):
+    print(f"username: {username}, password: {password}")
 
-
-def register(func):
-
-    def wrapper(*args, **kwargs):
-        # args: tuple, kwargs: dict
-
-        joint_args = " | ".join(map(str, args))
-        joint_kwargs = " | ".join([ f"{k}-{v}" for k, v in kwargs.items()])
-
-        with open("spy.txt", "a") as file:
-            file.write(f"{func.__name__}: {joint_args}\n")
-            file.write(f"{func.__name__}: {joint_kwargs}\n")
-        
-        # اسم تابع
-        # func.__name__
-        METHODS[func.__name__] = func
-
-        # فراخوانی خود تابع اصلی با استفاده از ورودی‌هایی که بهش دادیم
-        return func(*args, **kwargs)
-
-    return wrapper
+@register
+def func2(a, b, c, d):
+    print(f"{a}-{b}-{c}-{d}")
 
 
+func1(username="mohammad", password="1234")
+func2(10, 11, 12, 13)
