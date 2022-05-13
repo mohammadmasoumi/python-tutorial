@@ -1,0 +1,32 @@
+[1] Download gitbash for windows
+[2] Create an account on github
+[3] Create a new repository
+
+ ----------------------------------------------------------------
+…or create a new repository on the command line
+echo "# test-python2" >> README.md
+git init
+git config --global user.name "mohammad masoumi"
+git config --global user.email "mohammad.masoomy74@gmail.com"
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mohammadmasoumi/test-python2.git
+git push -u origin master
+
+# ----------------------------------------------------------------
+…or push an existing repository from the command line
+git remote add origin https://github.com/mohammadmasoumi/test-python2.git
+git branch -M master
+git push -u origin master
+
+# ----------------------------------------------------------------
+# add all files
+git add .
+
+# add 02/ directory
+git add 02/
+
+# add 02/01_test.py file
+git add 02/01_test.py
+

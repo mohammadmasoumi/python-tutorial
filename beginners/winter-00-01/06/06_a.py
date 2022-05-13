@@ -1,5 +1,3 @@
-
-
 f_name = input()
 f_age = input()
 f_national_id = input()
