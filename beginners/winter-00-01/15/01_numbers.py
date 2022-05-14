@@ -23,6 +23,21 @@ n = int(input())
 # else:
 #     print(reminder)
 
-
 # n = int(input())
 print(9 if n % 9 == 0 else n % 9)
+
+
+# ---------- Other solution ----------
+# n: str
+n = input()
+
+while True:
+    s = 0
+    for num in n:
+        s += int(num)
+
+    if s < 10:
+        print(s)
+    else:
+        n = str(s)
+
