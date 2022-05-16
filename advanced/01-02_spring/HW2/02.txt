@@ -1,0 +1,21 @@
+تمرین دوم:
+
+برای تابع زیر دو عدد دکوریتور تعریف کنید:
+
+```
+def introduction():
+    return 'This is a basic program'
+```
+
+که تگ‌های زیر را به ترتیب به خروجی تابع بالا اضافه کند.
+
+```
+<i></i>
+<strong></strong>
+```
+
+نتیجه نهایی باید بصورت زیر باشد:
+
+```
+<strong><i>This is a basic program</i></strong>
+```
