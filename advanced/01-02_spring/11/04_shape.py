@@ -1,5 +1,8 @@
 import math
 
+from rgwadmin import RGWAdmin
+
+RGWAdmin()
 
 class Shape:
 

@@ -5,6 +5,7 @@ def add(a, b):
 def summation(my_list):
     # [(10, 11), (12, 13), (14, 15)]
     def add(a, b):
+        # a = c, b = d
         print("In")
         return a  + b
 
@@ -12,7 +13,11 @@ def summation(my_list):
     for c, d in my_list:
         # item: (10, 11)
         s += add(c, d)
-
+    
+    # def add(a, b):
+    #     print("In")
+    #     return a  + b
+    
     return s
 
 print(summation([(10, 11), (12, 13), (14, 15)]))
