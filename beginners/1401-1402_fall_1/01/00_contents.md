@@ -1,0 +1,29 @@
+# Content
+
+- introduction
+- course policy
+- installation
+  - python interpreter
+  - visual studio code
+  - extensions
+    - prettifier
+    - themes (atom, ayu)
+- first program!
+  - create/run/debug
+- variables
+  - int
+  - float
+  - str
+  - bool
+- comment
+  - description/documentation
+  - todo/reminder
+  - debugging
+- shortcuts
+- variable naming
+  - must not start with number
+  - must contains alphabetic and numeric characters + \_
+  - none of the reserved keywords
+  - naming conventions (snake_case, PascalCase, camelCase)
+- print
+- type
