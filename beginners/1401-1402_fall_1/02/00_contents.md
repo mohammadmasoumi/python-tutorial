@@ -11,8 +11,8 @@
   - identity operator
   - membership operator
   - bitwise operator
-- input
 - immutable/mutable
+- input
 - selection statement
 - calculator
 - max number
