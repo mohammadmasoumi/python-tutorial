@@ -7,6 +7,9 @@
   - assignment operator
   - arithmetic operator
   - comparison operator
+    - int comparison
+    - string comparison
+    - ...
   - logical operator
   - identity operator
   - membership operator
