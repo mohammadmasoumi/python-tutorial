@@ -7,14 +7,14 @@ This project is an open-source project which I made due to sharing my experience
 - [advanced-1401-1402_fall][5]
 - [beginners-1401-1402_fall][9]
 
-## Beginners
+## Advanced
 
 - [advanced-1400-1401_fall][2]
 - [advanced-1400-1401_winter][3]
 - [advanced-1401-1402_spring][4]
 - [advanced-1401-1402_fall][5]
 
-## Advanced
+## Beginners
 
 - [beginners-1400-1401_fall_1][6]
 - [beginners-1400-1401_fall_2][7]
