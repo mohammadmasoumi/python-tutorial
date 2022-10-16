@@ -3,20 +3,25 @@
 This project is an open-source project which I made due to sharing my experience around the Python programming language.
 
 - [tutorial][1]
+
+## Beginners
+
 - [advanced-1400-1401_fall][2]
 - [advanced-1400-1401_winter][3]
 - [advanced-1401-1402_spring][4]
 - [advanced-1401-1402_fall][5]
 
+## Advanced
+
 - [beginners-1400-1401_fall_1][6]
 - [beginners-1400-1401_fall_2][7]
-- [beginners-1400-1401_winter_1][8]
-- [beginners-1401-1402_fall_1][9]
+- [beginners-1400-1401_winter][8]
+- [beginners-1401-1402_fall][9]
 
 ## In progress
 
 - [advanced-1401-1402_fall][5]
-- [beginners-1401-1402_fall_1][9]
+- [beginners-1401-1402_fall][9]
 
 ## what you will learn?
 
@@ -138,5 +143,5 @@ matplotlib
 [5]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1401-1402_fall
 [6]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_fall_1
 [7]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_fall_2
-[8]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_winter_1
-[9]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1401-1402_fall_1
+[8]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_winter
+[9]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1401-1402_fall
