@@ -2,7 +2,10 @@
 
 This project is an open-source project which I made due to sharing my experience around the Python programming language.
 
-- [tutorial][1]
+## In progress
+
+- [advanced-1401-1402_fall][5]
+- [beginners-1401-1402_fall][9]
 
 ## Beginners
 
@@ -16,11 +19,6 @@ This project is an open-source project which I made due to sharing my experience
 - [beginners-1400-1401_fall_1][6]
 - [beginners-1400-1401_fall_2][7]
 - [beginners-1400-1401_winter][8]
-- [beginners-1401-1402_fall][9]
-
-## In progress
-
-- [advanced-1401-1402_fall][5]
 - [beginners-1401-1402_fall][9]
 
 ## what you will learn?
@@ -136,7 +134,6 @@ matplotlib
 3. bomber man
 4. tower defence
 
-[1]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/tutorials
 [2]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1400-1401_fall
 [3]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1400-1401_winter
 [4]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1401-1402_spring
