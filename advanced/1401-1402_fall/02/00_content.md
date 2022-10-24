@@ -1,7 +1,8 @@
 # Content
 
 - first class object
-  - shout, yell
+  - shout
+  - yell
 - pass fucntion as argument
   - caller
 - partial function
