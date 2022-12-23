@@ -115,7 +115,6 @@ class SnakePart:
         self.__prev_part = value
 
     def __str__(self):
-        # return f"{bcolors.OKBLUE} *"
         return '*'
 
 class Snake:
