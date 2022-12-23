@@ -89,7 +89,6 @@ class SnakePart:
     def x(self):
         return self.__x
 
-
     @x.setter
     def x(self, value):
         self.__x = value
@@ -100,7 +99,7 @@ class SnakePart:
 
     @y.setter
     def y(self, value):
-        
+        self.__y = value
 
     @property
     def has_taken(self):
@@ -125,14 +124,11 @@ class Snake:
     def __move_right_handler(self):
         next_x, next_y = self.__head.y, self.__head.x + 1
 
-        for part in self.__parts:
-            prev_x = part.x
-            prev_y = part.y
+        # for part in self.__parts:
+        #     prev_x = part.x
+        #     prev_y = part.y
 
-
-            part.x = 
-
-            
+        #     part.x =
 
     def __move_left_handler(self):
         pass
