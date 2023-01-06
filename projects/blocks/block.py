@@ -139,7 +139,7 @@ class Map:
         (CELL_WIDTH * self.width) + (1 * self.width + 1)
         (self.width * (CELL_WIDTH + 1)) + 1
         """
-        os.system("cls")
+        os.system("clear")
         roof = "-" * ((self.width * (CELL_WIDTH + 1)) + 1)
 
         # [[], [], []]
