@@ -181,16 +181,18 @@ class Bomb:
                 (0, 1), # down
             ]
 
+            current_cell = board.get_cell(x=self.x, y=self.y)
+            current_cell.burst()
+
             for i in range(1, self.bomb_range + 1):
-                
                 cnt = 0
                 while cnt < len(directions_relative_path):
                     relative_dir = directions_relative_path[cnt] 
-                    relative_x = i * relative_dir[0]
-                    relative_y = i * relative_dir[1]
+                    selected_x = self.x + i * relative_dir[0]
+                    selected_y = self.y + i * relative_dir[1]
 
-                    if 0 <= relative_x < board.width and 0 <= relative_y < board.height:
-                        cell = board.get_cell(x=relative_x, y=relative_y)
+                    if 0 <= selected_x < board.width and 0 <= selected_y < board.height:
+                        cell = board.get_cell(x=selected_x, y=selected_y)
                         blockage = cell.burst()
 
                         if blockage:
