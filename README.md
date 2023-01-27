@@ -13,6 +13,7 @@ This project is an open-source project which I made due to sharing my experience
 - [advanced-1400-1401_winter][3]
 - [advanced-1401-1402_spring][4]
 - [advanced-1401-1402_fall][5]
+- [advanced-1402-1403_spring][50]
 
 ## Beginners
 
@@ -138,6 +139,7 @@ matplotlib
 [3]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1400-1401_winter
 [4]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1401-1402_spring
 [5]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1401-1402_fall
+[50]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/advanced/1402-1403_spring
 [6]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_fall_1
 [7]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_fall_2
 [8]: https://github.com/mohammadmasoumi/python-tutorial/tree/main/beginners/1400-1401_winter
