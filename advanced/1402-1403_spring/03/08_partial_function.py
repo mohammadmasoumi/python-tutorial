@@ -5,8 +5,8 @@ def handler(*args, **kwargs):
     """This is handler"""
     print(f"Handled, args: {args}, kwargs: {kwargs}")
 
+
 def partial_function(f, *args, **kwargs):
-    
     @functools.wraps(f)
     def partial(*fargs, **fkwargs):
         return f(*args, *fargs, **{**kwargs, **fkwargs})

@@ -1,3 +1,4 @@
+# Count all decorated function's calls
 import functools
 
 def call_count(f):
@@ -8,7 +9,6 @@ def call_count(f):
     def wrapper(*args, **kwargs):
         call_count.count += 1
         print(f"{f.__name__} called {call_count.count}")
-
         return f(*args, **kwargs)
     
     return wrapper
@@ -22,10 +22,6 @@ def f1():
 def f2():
     pass
 
-f1()
-f1()
-f1()
-
-f2()
-f2()
-f2()
+for _ in range(3):
+    f1()
+    f2()
