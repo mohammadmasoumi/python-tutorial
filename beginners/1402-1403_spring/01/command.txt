@@ -1,0 +1,9 @@
+# Download python interpreter
+https://www.python.org/downloads/
+
+# Download IDEA VScode
+https://code.visualstudio.com/docs/?dv=win32user
+
+# Download python extension for VScode
+# extensions>search for python>install
+https://marketplace.visualstudio.com/items?itemName=ms-python.python
