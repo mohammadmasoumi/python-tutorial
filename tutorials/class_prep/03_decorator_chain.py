@@ -22,7 +22,7 @@ def decorator2(f):
 @decorator1
 @decorator2
 def function():
-    print("$" * 40)
+    print("Hello".center(40))
 
 
 function()
