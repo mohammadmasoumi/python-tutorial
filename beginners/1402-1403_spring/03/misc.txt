@@ -1,0 +1,13 @@
+# Theme
+
+ - Ayu
+ - Pycharm Theme / Dracula
+ - One Dark Pro
+ - GitHub Theme
+ - Night Owl.
+ 
+# Change them
+    File > Preferences > Color theme
+
+
+https://datatofish.com/executable-pyinstaller/
