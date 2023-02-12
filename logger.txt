@@ -1,0 +1,6 @@
+function f1 called with args: (0,), kwargs: {'b': 'name_0'}
+function f2 called with args: ('name_0',), kwargs: {'b': 1, 'c': 3}
+function f1 called with args: (1,), kwargs: {'b': 'name_1'}
+function f2 called with args: ('name_1',), kwargs: {'b': 2, 'c': 3}
+function f1 called with args: (2,), kwargs: {'b': 'name_2'}
+function f2 called with args: ('name_2',), kwargs: {'b': 3, 'c': 3}
