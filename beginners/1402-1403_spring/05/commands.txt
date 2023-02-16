@@ -1,0 +1,14 @@
+
+# change directory /open
+cd DIRECTORY_NAME
+
+# list directory and files
+ls
+dir
+
+# run python file
+python FILE_NAME
+
+
+
+
