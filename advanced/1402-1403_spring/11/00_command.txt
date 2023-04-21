@@ -1,0 +1,11 @@
+# create new virtual env
+python -m venv VENVNAME
+
+# set permission for running scripts in vscode terminal 
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# activate virtual env
+.\newvenv\Scripts\activate
+
+# deactivate
+deactivate
