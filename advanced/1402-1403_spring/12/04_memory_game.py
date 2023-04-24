@@ -1,68 +1,101 @@
 import time
 import threading
+import queue
 from tkinter import *
 from random import shuffle
 from functools import partial
-from PIL import ImageTk, Image
+from PIL import Image, ImageTk
+
 
 root = Tk()
 
+IMAGE_WIDTH = 100
+IMAGE_HEIGHT = 100
+DEFAULT_CARD_IMG = "./images/card.png"
+
 fruits = [
-    "peach", "peach", "cherry", "cherry",
-    "coconut","coconut", "pieapple", "pieapple", 
-    "apple", "apple", "orange", "orange",
-    "banana", "banana", "pomegranate", "pomegranate"
+    "cherry", "cherry", "apple", "apple",
+    "grape","grape", "watermelon", "watermelon", 
+    "pomegranate", "pomegranate", "orange", "orange",
+    "banana", "banana", "lemon", "lemon"
 ]
-
 shuffle(fruits)
+threads = []
+selected_card_queue = queue.Queue()  
 
-"""
-1. create fruits shuffle
-2. create buttons
-3. create oncommand
+img = Image.open(DEFAULT_CARD_IMG)
+resized_img = img.resize((IMAGE_WIDTH, IMAGE_HEIGHT))
+default_image = ImageTk.PhotoImage(resized_img)
 
-"""
-fbtn, sbtn = None, None
+class Card(Button):
+
+   MATCHED_CARDS = 0
+
+   def __init__(self, name=None, master=None, cnf={}, **kw):
+      self.name = name
+
+      backimg = Image.open(f"./images/{name}.png")
+      resized_backimg = backimg.resize((IMAGE_WIDTH, IMAGE_HEIGHT))
+      back_image = ImageTk.PhotoImage(resized_backimg)
+
+      self.back_image = back_image
+
+      cnf.update(image=default_image)
+      cnf.update(command=partial(on_command, self))
+
+      super().__init__(master, cnf, **kw)
+
+   def back(self):
+      self.configure(image=self.back_image) 
+
+   def front(self):
+      self.configure(image=default_image) 
+
+   def __eq__(self, card):
+      if isinstance(card, Card):
+         return self.name == card.name
+      
+      return ValueError(f"can't compare card instance with {type(card)}")
+
+   def __ne__(self, card):
+      if isinstance(card, Card):
+         return self.name != card.name
+      
+      return ValueError(f"can't compare card instance with {type(card)}")
 
 def compare():
-    global fbtn, sbtn
+      
+   while True:
+      if selected_card_queue.qsize() > 1:
+         time.sleep(0.5)
+         card1 = selected_card_queue.get(block=False)
+         card2 = selected_card_queue.get(block=False)
 
-    while True:
-        if fbtn and sbtn:
-            time.sleep(0.5)
-
-            if fbtn.cget('text') == sbtn.cget('text') and fbtn.cget('text') != "":
-                fbtn.configure(state=DISABLED)
-                sbtn.configure(state=DISABLED)
-            else:
-                fbtn.configure(text="", state=NORMAL)
-                sbtn.configure(text="", state=NORMAL)
-            
-            fbtn, sbtn = None, None
+         if card1 != card2:
+            card1.front()
+            card2.front()
+         else:
+            Card.MATCHED_CARDS += 2
+            if Card.MATCHED_CARDS == 16:
+               global thread
+               thread.join()
+               root.destroy()
 
 
 thread = threading.Thread(target=compare)
 thread.start()
 
-def on_command(btn, x, y):
-    global fbtn, sbtn
 
-    fruit = fruits[y*4+x]
-    imagefile = f'C:\\Users\\MFT SERVER\\Desktop\\Python\\advanced-python-winter1401\\12\\images\\test.png'
-    # img = ImageTk.PhotoImage(Image.open(u))  
-    image= PhotoImage(file=imagefile, width=10, height=5)
+def on_command(card: Card):
+   card.back()
+   selected_card_queue.put(card)
 
-    btn.configure(image=image, state=DISABLED)
-
-    if not fbtn:
-        fbtn = btn
-    elif not sbtn:
-        sbtn = btn 
 
 for y in range(4):
     for x in range(4):
-        btn = Button(root, text="", width=10, height=5, relief=SUNKEN)
-        btn.grid(row=y, column=x)
-        btn.configure(command=partial(on_command, btn, x, y))
+         card = Card( name=fruits[y*4+x], master=root,relief=SUNKEN, width=IMAGE_HEIGHT, height=IMAGE_HEIGHT)
+         card.grid(row=y, column=x)
+
 
 root.mainloop()
+
