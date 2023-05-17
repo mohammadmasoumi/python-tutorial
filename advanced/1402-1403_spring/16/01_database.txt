@@ -1,0 +1,13 @@
+# CRUD
+# CREATE READ UPDATE DELETE
+
+# https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+# https://chrome.google.com/webstore/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno
+
+# https://www.tutorialspoint.com/postgresql/postgresql_drop_table.html
+# https://maktabkhooneh.org/course/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D8%AF%D8%A7%D8%AF%D9%87-mk214/
+# https://downloadly.ir/download/elearning/video-tutorials/page/3/
+
+# pip install psycopg2
+
+# https://www.w3schools.com/sql/sql_datatypes.asp
