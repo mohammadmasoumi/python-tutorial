@@ -1,0 +1,9 @@
+pip install scrapy
+
+scrapy startproject mycralwer
+
+You can start your first spider with:
+    cd mycralwer
+    scrapy genspider example example.com
+
+https://docs.scrapy.org/en/latest/topics/spiders.html

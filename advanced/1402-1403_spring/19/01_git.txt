@@ -1,0 +1,6 @@
+cd TO_PROJECT_DIRECTORY
+
+git status
+git add .
+git commit -m "add new stuff to the project"
+git push
