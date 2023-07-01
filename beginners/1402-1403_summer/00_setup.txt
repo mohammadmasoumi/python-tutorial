@@ -1,0 +1,34 @@
+# download python interpreter
+
+https://www.python.org/downloads/
+3.11, 3.10.5
+
+- Add python to PATH
+
+# download IDEA
+    - PyCharm: https://soft98.ir/software/programming/1652-pycharm.html
+    - vscode: https://code.visualstudio.com/download
+
+# extension
+    - Python
+    - Prettier - Code formatter
+    - Ayu
+    - Darcula PyCharm Theme
+
+vscode > extension > search python > install python extension
+search download python extension for vscode > Version History > Download latest version > vscode > extension > ... dot > Install from VSIX > folder management select python VSIX extension
+
+# Change theme
+File > Preferences > Color theme
+
+# Auto save
+File > auto-save
+
+# Folder
+File > Open Folder 
+
+# Type Racer
+https://play.typeracer.com/
+
+# Chart
+https://matplotlib.org/
