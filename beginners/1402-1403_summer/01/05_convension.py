@@ -9,8 +9,10 @@
 #   PascalCase, ThisIsVeryVeryImportantNote
 # 3. snake case [X]
 #   snake_case, this_is_very_very_important_note
-# 4.kabab case
+# 4.kebab case
 #   kebab-case, this-is-very-very-important-note
+# 5. title case
+#   The Great Gatsby
 
 # 1. alphanameric [alphabetic + digit + _]
 
@@ -84,6 +86,7 @@ has_lowercase = True
 pi = 3.14
 
 # str
+# this variables are for ...
 name = "ali"
 lastname = "alavi"
 age = 20
