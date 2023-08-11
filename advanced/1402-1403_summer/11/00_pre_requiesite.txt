@@ -1,0 +1,12 @@
+create venv 
+
+# activate venv
+.\venv\Scripts\activate
+.\{virtual environment}\Scripts\activate
+
+# deactivate
+deactivate
+
+# command pallete
+select python interpreter > select recommended
+                          > select interpreter path
