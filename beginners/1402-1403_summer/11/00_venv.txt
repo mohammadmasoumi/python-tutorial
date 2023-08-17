@@ -1,0 +1,15 @@
+python -m venv venv
+python -m venv VIRTUAL_ENV_NAME
+
+# activate
+.\venv\Scripts\activate
+
+# deactivate
+deactivate
+
+
+# Command Pallette
+
+View > Command Pallette > Select python interpreter > venv 
+                                                    > Enter your interpreter path python.exe
+                                                        venv/Scripts/python.exe
