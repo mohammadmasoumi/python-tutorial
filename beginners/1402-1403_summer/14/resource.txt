@@ -1,0 +1,25 @@
+https://www.geeksforgeeks.org/data-structures/?ref=lbp
+https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm_outind
+https://www.w3schools.com/python/python_arrays.asp
+https://realpython.com/
+
+https://www.codewars.com/
+https://quera.org/
+https://quera.org/problemset?tag=78
+https://www.hackerrank.com/
+
+
+https://downloadly.ir/
+
+
+everynight 1 article -> https://realpython.com/ (30mins)
+
+https://downloadly.ir/elearning/video-tutorials/programming-for-everybody/
+
+github -> create repository -> 10 commits
+
+https://downloadly.ir/elearning/video-tutorials/the-ultimate-data-structures-algorithms-part-3/
+https://downloadly.ir/elearning/video-tutorials/the-ultimate-git-course/
+
+youtube -> CodeWithMosh
+        -> 
